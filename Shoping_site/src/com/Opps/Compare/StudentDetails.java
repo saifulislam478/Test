@@ -14,11 +14,13 @@ public class StudentDetails {
 			FindSpecialCharacter sp=new FindSpecialCharacter();
 			sp.specialCharacterFind();
 			sp.wordCount("Saiful islam number para part 1");
+			sp.ReverseString("morning shows the day");
 			
 		
 		
 		DuplicateCount dc=new DuplicateCount();
 		dc.CharactCount();
+		
 
 List<Student> std=new ArrayList<Student>();
 std.add(new Student("saiful",10));
